@@ -10,5 +10,8 @@ public class ContaCorrente extends Conta {
 		System.out.println("=== Extrato Conta Corrente ===");
 		super.imprimirInfosComuns();
 	}
-	
+
+	public void emitirCheque(int i) {
+		System.out.println("Cheque emitido no valor de R$" + i);
+	}
 }
